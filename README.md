@@ -57,7 +57,7 @@
     <ol>
         <li>Clone the repository:</li>
     </ol>
-    <code>git clone https://github.com/Yashi-Singh-1/Day-16-CSS-Shapes-Animation.git</code>
+    <code>git clone https://github.com/Yashi-Singh-1/Day-16-CSS-Shapes-Animation.git</code><br><br>
     <ol start="2">
         <li>Open <code>index.html</code> in a web browser.</li>
     </ol>
@@ -67,15 +67,35 @@
     <h2>Preview</h2>
     <p>View the live demo: <a href="https://codepen.io/Yashi-the-lessful/pen/WNBLGLr">CSS Shapes Animation Demo</a></p>
     <p>Screenshot </p>
-
-    ![Preview](Preview.png)
+    
+![Preview](Preview.png)
 
 </section>
 
 <section>
     <h2>Contributing</h2>
-    <p>Contributions to improve the animations or add new features are welcome. Fork the repository and submit a pull request with your changes.</p>
+    <p>Thank you for considering contributing to the CSS Shapes Animation challenge! Contributions are highly appreciated and can range from bug fixes to new features or improvements in animations and responsiveness. To contribute, follow these steps:</p>
+    <ol>
+        <li><strong>Fork</strong> the repository on GitHub.</li>
+        <li><strong>Clone</strong> your forked repository locally:</li>
+    </ol>
+    <code>git clone https://github.com/your-username/Day-16-CSS-Shapes-Animation.git</code><br><br>
+    <ol start="3">
+        <li><strong>Create a new branch</strong> for your feature or bug fix:</li>
+    </ol>
+    <code>git checkout -b feature-new-animation</code><br><br>
+    <ol start="4">
+        <li><strong>Make changes</strong> to the codebase. Ensure that your changes adhere to the existing coding style and practices.</li>
+        <li><strong>Test your changes</strong> to ensure they work as expected.</li>
+        <li><strong>Commit</strong> your changes:</li>
+    </ol>
+    <code>git commit -am 'Add new animation effect'</code><br><br>
+    <ol start="7">
+        <li><strong>Push</strong> your changes to your GitHub repository:</li>
+    </ol>
+    <code>git push origin feature-new-animation</code><br><br>
 </section>
+
 
 <section>
     <h2>Author</h2>

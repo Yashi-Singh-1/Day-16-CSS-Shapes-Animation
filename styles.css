@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container styles */
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #46A6DA;
+}
+
+/* Base shape styles */
+.shape {
+    position: relative; /* Changed to relative to position shapes inside the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Circle styles */
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: bounce 4s infinite;
+}
+
+/* Square styles */
+.square {
+    width: 130px;
+    height: 130px;
+    animation: rotate 3s linear infinite;
+}
+
+/* Triangle styles */
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid;
+    animation: pulse 1.5s infinite;
+}
+
+/* Keyframes animations */
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0, 50px);
+        background-color: #FFD700;
+    }
+    25% {
+        transform: translate(50px, -50px);
+        background-color: #FFA500;
+    }
+    50% {
+        transform: translate(-50px, 100px);
+        background-color: #FFD700;
+    }
+    75% {
+        transform: translate(100px, 150px);
+        background-color: #FFA500;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        background-color: #475063;
+    }
+    25% {
+        transform: rotate(-90deg);
+        background-color: #9370DB;
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: #475063;
+    }
+    75% {
+        transform: rotate(-270deg);
+        background-color: #9370DB;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: #475063;
+    }
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(0.6);
+        border-bottom-color: #fff;
+    }
+    50% {
+        transform: scale(1.4);
+        border-bottom-color: #FF69B4;
+    }
+    75%{
+        transform: scale(1);
+        border-bottom-color: #FF4500 ;
+    }
+}
